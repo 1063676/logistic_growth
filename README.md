@@ -53,10 +53,7 @@ This is my graph comparing the two functions: ![image info](images/comp_graph.pn
 
 As you can see, whereas the exponential growth continues to increase, well, exponentially, the logistic growth plateaus off early on. This is exactly as was predicted by the models. 
 
-I also edited the y axis scale to make the early growth dynamics more visible: ![image info](images/comp_graph_scaled.png)
-
-
-The two images can also be found in my logistic-growth repo in the images folder.
+The image can also be found in my logistic-growth repo in the images folder.
 
 
 
