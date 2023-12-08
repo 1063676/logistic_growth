@@ -56,21 +56,3 @@ ggplot(aes(t,N), data = growth_data) +
 
 
 
-#I decided to create the graph again, but along with a y scale limit, to be able to see the dynamics of the two functions a tiny bit better at low t values
-ggplot(aes(t,N), data = growth_data) +
-  
-  geom_function(fun=logistic_fun, colour="red") +
-
-  geom_function(fun=exp_fun, colour="blue") +
-
-  scale_y_continuous(trans='log10') +
-
-  labs(x="Time (minutes)", y="Population size", title="Comparison of logistic and exponential growth curves") +
-  
-  theme_bw() + 
-  
-  ylim(0, 1.1e+10)
-  #This line limits the y axis scale to between 0 and 1e+10
-  
-
-
