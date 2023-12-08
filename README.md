@@ -47,7 +47,7 @@ Using my estimates of 1879 for N0, 1e+09 for K and 0.031 for r, I found the popu
 
 Question 3
 ----------
-Link to my R code in my logistic-growth repo: https://github.com/1431293/logistic_growth/blob/main/comparison_graphs_code.R
+Link to my R code in my logistic-growth repo: https://github.com/1063676/logistic_growth/blob/main/comparison_graphs_code.R
 
 This is my graph comparing the two functions: ![image info](images/comp_graph.png)
 
